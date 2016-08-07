@@ -26,6 +26,7 @@ public class BalancedWord {
 					count[i] = 2;
 				} else {
 					count[i] = 3;
+					break;
 				}
 			}
 		}
