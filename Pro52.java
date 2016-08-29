@@ -10,7 +10,7 @@ public class Pro52 {
 		}
 		double r = Math.sqrt(((a[6] - a[4]) * (a[6] - a[4])) + ((a[7] - a[5]) * (a[7] - a[5])));
 		double p = Math.sqrt(((a[2] - a[0]) * (a[2] - a[0])) + ((a[3] - a[1]) * (a[3] - a[1])));
-		double q = Math.sqrt(((a[4] - a[2]) * (a[4] - a[2])) + ((a[3] - a[1]) * (a[3] - a[1])));
+		double q = Math.sqrt(((a[4] - a[2]) * (a[4] - a[2])) + ((a[5] - a[3]) * (a[5] - a[3])));
 		if (p == q && q == r) {
 			System.out.println("The given four points forms a square.");
 		} else {
