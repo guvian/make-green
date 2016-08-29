@@ -18,11 +18,11 @@ public class Pro52 {
 				a[j + 1] = temp1;
 			}
 		}
-int p = Math.abs(a[1] - a[3]);
+		int p = Math.abs(a[1] - a[3]);
 		int q = Math.abs(a[5] - a[7]);
 		int r = Math.abs(a[2] - a[4]);
 		int s = Math.abs(a[0] - a[6]);
-	if (p == q && p == r && p == s) {
+		if (p == q && p == r && p == s) {
 			System.out.println("The given Co_ordinates forms a square.");
 		} else {
 			System.out.println("The given Co_ordinates does not forms a square.");
